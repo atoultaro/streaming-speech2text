@@ -4,7 +4,7 @@
 To reach speech to text with low latency faster than 100-150 msec, much faster than Whisper and other non-streaming automatic speech recognition (ASR).
 
 ## Keywords
-Low latency, 100 msec, Speech-to-text, Automatic Speech Recognition, ASR, Conformer, Enformer, RNN-T, FPGA.
+Low latency, 100 msec, Speech-to-text, Automatic Speech Recognition, ASR, Conformer, Emformer, RNN-T, FPGA.
 
 ## Learning Path
 1. **Load pretrained Emformer-RNN-T**: bundle = torchaudio.pipelines.EMFORMER_RNNT_BASE_LIBRISPEECH
@@ -179,4 +179,11 @@ try morning in nineteen ninety one along that gio river in m s o king boris doub
 
 Stopped.
 steps=209 dropped_audio=0 | first_token_ms p50=249.9 p95=249.9 n=1 | compute_ms p50=41.6 p95=75.4 n=209
+```
+
+## To-do
+Upgrade to Torch 2.5 so as to use the following pre-trained models (https://docs.pytorch.org/audio/2.5.0/prototype.pipelines.html):
+```
+EMFORMER_RNNT_BASE_MUSTC
+EMFORMER_RNNT_BASE_TEDLIUM3
 ```
