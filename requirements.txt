@@ -1,0 +1,5 @@
+numpy==1.26.4
+sounddevice==0.5.3
+torch==2.2.2
+torchaudio==2.2.2
+sentencepiece==0.1.99
