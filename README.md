@@ -180,10 +180,3 @@ try morning in nineteen ninety one along that gio river in m s o king boris doub
 Stopped.
 steps=209 dropped_audio=0 | first_token_ms p50=249.9 p95=249.9 n=1 | compute_ms p50=41.6 p95=75.4 n=209
 ```
-
-## To-do
-Upgrade to Torch 2.5 so as to use the following pre-trained models (https://docs.pytorch.org/audio/2.5.0/prototype.pipelines.html):
-```
-EMFORMER_RNNT_BASE_MUSTC
-EMFORMER_RNNT_BASE_TEDLIUM3
-```
